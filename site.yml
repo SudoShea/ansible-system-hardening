@@ -9,7 +9,6 @@
 ---
 - name: Baseline Linux System Hardening
   hosts: all
-...
   become: true
   vars:
     insecure_services:
