@@ -54,3 +54,6 @@ Execute the playbook across all inventory targets:
 ```bash
 ansible-playbook -i inventory.ini site.yml --ask-become-pass
 ```
+---
+## 📄 License
+Distributed under the MIT License. See `LICENSE` for details.
