@@ -1,1 +1,29 @@
+# ==============================================================================
+# Ansible Temporary & Local Files
+# ==============================================================================
+*.retry
+*.log
+.ansible/
+*.gztar
 
+# Local Vault & Secrets Files (Safety catch)
+*vault_pass*
+*.vault
+.env
+
+# ==============================================================================
+# Editor & OS Metadata
+# ==============================================================================
+# VS Code / IDEs
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+
+# Vim / Swap files
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
