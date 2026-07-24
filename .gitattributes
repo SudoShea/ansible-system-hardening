@@ -1,3 +1,3 @@
-# Force GitHub Linguist to categorize YAML files as Ansible
-*.yml linguist-language=Ansible
-*.yaml linguist-language=Ansible
+# Force Linguist to detect and display Ansible in the stats bar
+*.yml linguist-language=Ansible linguist-detectable=true
+*.yaml linguist-language=Ansible linguist-detectable=true
